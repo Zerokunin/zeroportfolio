@@ -1,0 +1,31 @@
+body {
+    /* background-color: pink; */
+    background-image: url("https://images2.alphacoders.com/129/1299581.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: auto;
+}
+
+.menu {
+    background: black;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.menu li {
+    list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color:purple; 
+}
+
+a:hover {
+    text-decoration: underline;
+    color: gray;
+}
